@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*start header and navbar*/
+a
+{
+    text-decoration: none;
+}
+.d-flex
+{
+    margin-left: auto;
+}
+.container-fluid1
+{
+    background-color: black;
+    border: solid 1px black;
+}
+.navbar-text
+{
+border-right: 1px solid white; 
+font-size: 22px;
+font-weight: bold;
+ transition: .5s;
+ cursor: pointer;
+}
+.navbar-text:hover
+{
+    text-shadow: 2px -2px 14px rgb(239, 233, 228);
+}
+.nav-link
+{
+font-size: 22px;
+}
+/* end header and navbar*/
+/* start section*/
+section{
+    background-image: url(img/realistic-soccer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+section .col-12{
+    position: relative;
+    text-align: center;
+    top: 40%;
+}
+.col-12 h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.col-12 p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.col-md-12.activties{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.col-md-12.activties h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.col-md-12.activties p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+/*start card effects*/
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .26);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+/*end card effects*/
+.container.champions{
+    margin-top: 40px;
+}
+.col-md-6.text{
+    margin-top: 60px;
+}
+.col-md-6.text h4{
+    font-size: 31px;
+    font-weight: bolder;
+    color: black;
+
+}
+.col-md-6.text p{
+    font-size: 22px;
+    font-weight: 400
+}
+@media (max-width:575px){
+    .col-md-6 img{
+        width:400px ;
+        height: 350px;
+    }
+}
+/*start footer*/
+footer{
+    margin-top: 50px;
+    background-color: #282A35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+footer .col-md-12 {
+    margin-top: 10px;
+    text-align: center;
+}
+footer .col-md-12 h3{
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #fff;
+}
+/*end footer*/
